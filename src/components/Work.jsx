@@ -1,9 +1,9 @@
 import React from 'react';
 import Algo from '../assets/algo.png';
-import Pokedex from '../assets/Pokedex.png';
+import Pokedex from '../assets/pokedex.png';
 import Book from '../assets/book.png';
 import GameStop from '../assets/gamestop.png'
-import Astro from '../assets/astro.png';
+import Astro from '../assets/apod.png';
 import Crypto from '../assets/crypto.png';
 
 
