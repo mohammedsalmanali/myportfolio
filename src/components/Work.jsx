@@ -1,10 +1,10 @@
 import React from 'react';
-import realEstate from '../assets/realestate.jpg';
-import StickyNotes from '../assets/stickynotes.png';
-import Chess from '../assets/chess.png';
-import RockPaperScissor from '../assets/rockpaperscissor.png';
-import Todo from '../assets/todoapp.png';
-import Weather from '../assets/weatherapp.png';
+import Algo from '../assets/algo.png';
+import Pokedex from '../assets/Pokedex.png';
+import Book from '../assets/book.png';
+import GameStop from '../assets/gamestop.png'
+import Astro from '../assets/astro.png';
+import Crypto from '../assets/crypto.png';
 
 
 
@@ -15,9 +15,9 @@ const Work = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
-            Work
+            Projects
           </p>
-          <p className='py-6'>Check out some of my recent works</p>
+          <p className='py-6'>Check out some of my recent projects</p>
         </div>
 
 {/* Container */}
@@ -25,18 +25,18 @@ const Work = () => {
 
             {/* Grid Item */}
           <div
-            style={{backgroundImage: `url(${Weather})`}}
+            style={{backgroundImage: `url(${Crypto})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Angular Weather App   
+                Crypto Checker  
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://weather-tracker-rho.vercel.app/' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                  Live
                   </button>
                 </a>
                 <a href='https://github.com/mohammedsalmanali/weather-tracker.git/' target='_blank' rel='noopener noreferrer'>
@@ -48,21 +48,21 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Todo})`} }
+            style={{ backgroundImage: `url(${Pokedex})`} }
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Angular Todo App
+                Pokedex
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://todo-list-omega-bice.vercel.app/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://pokedex-7b1e8.web.app/' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Live
                   </button>
                 </a>
-                <a href='https://github.com/mohammedsalmanali/todo-list.git/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://github.com/mohammedsalmanali/Pokedex' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -72,21 +72,21 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Chess})` }}
+            style={{ backgroundImage: `url(${GameStop})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Chess Game
+                GameStop
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://chesschampion.netlify.app/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://game-stop.vercel.app/' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                  Live
                   </button>
                 </a>
-                <a href='https://github.com/mohammedsalmanali/chess-game.git/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://github.com/mohammedsalmanali/GameStop' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -95,21 +95,21 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${RockPaperScissor})` }}
+            style={{ backgroundImage: `url(${Algo})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Rock Paper Scissors
+                Visualize Your Algo
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://startrockpaperscissors.netlify.app/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://algorithm-visualizer-self.vercel.app/' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                  Live
                   </button>
                 </a>
-                <a href='https://github.com/mohammedsalmanali/rock-paper-scissors.git/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://github.com/mohammedsalmanali/Visualize-Your-Algo' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -119,21 +119,21 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${StickyNotes})` }}
+            style={{ backgroundImage: `url(${Book})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Sticky Notes
+                Find A Book
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://yourstickynotes.netlify.app/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://book-search-app-eta.vercel.app/' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Live
                   </button>
                 </a>
-                <a href='https://github.com/mohammedsalmanali/sticky-notes.git/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://github.com/mohammedsalmanali/Find-A-Book' target='_blank' rel='noopener noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -142,21 +142,21 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${Astro})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Movie Library
+                NASA APOD
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://nasa-apod-app-three.vercel.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Live
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/mohammedsalmanali/Nasa-Apod-App'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>

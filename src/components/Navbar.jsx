@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to='work' smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li>
@@ -83,7 +83,7 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -108,7 +108,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/beginnertocode/' target='_blank' rel='noopener noreferrer'
+              href='https://github.com/mohammedsalmanali/' target='_blank' rel='noopener noreferrer'
             >
               Github <FaGithub size={30} />
             </a>
@@ -124,7 +124,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1xKXhq1Wqv8F4VZBvH8rn6oAhd2iorz6G/view?usp=sharing/' target='_blank' rel='noopener noreferrer'
+              href='https://drive.google.com/file/d/1D09ZUSVTejQjQL_uoOqyCFEQQzxOURV-/view?usp=sharing' target='_blank' rel='noopener noreferrer'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
